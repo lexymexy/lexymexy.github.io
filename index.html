@@ -1,43 +1,79 @@
-<!DOCTYPE html>
-<html>
-  
-  <head>
-    <link rel="stylesheet" type="text/css" href="./main.css">
-    <title>кс гоу</title>
-  </head>
+<!doctype html>
+<html lang="ru">
 
-  <body>
-    <h1>Darova!</h1>
-    <table>
-    	<tr>
-    		<th>#</th>
-    		<th>nickname</th>
-    	</tr>
-    	<tr>
-    		<td>1</td>
-    		<td>ты зидр</td>
-    	</tr>
-    	<tr>
-    		<td>2</td>
-    		<td>MorKich</td>
-    	</tr>
-    	<tr>
-    		<td>3</td>
-    		<td>Sinichka</td>
-    	</tr>
-    	<tr>
-    		<td>4</td>
-    		<td>каркуша</td>
-    	</tr>
-    	<tr>
-    		<td>5</td>
-    		<td>DeCode</td>
-    	</tr>
-    	<tr>
-    		<td>6</td>
-    		<td><a href="https://vk.com/lovgon" target="_blank">lovgon</a></td>
-    	</tr>
-    </table>
-  </body>
-  
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>CS:GO | teammates</title>
+</head>
+
+<body class="bg-light text-monospace">
+<header class="py-3">
+    <nav class="row justify-content-center m-0">
+        <div>
+            <a class="btn btn-outline-dark" href="index.html" role="button">Версия со своими стилями</a>
+            <a class="btn btn-outline-dark active" href="index-bs.html" role="button">Версия со стилями Bootstrap</a>
+        </div>
+    </nav>
+</header>
+
+<main class="container">
+    <div>
+        <table class="table table-bordered table-hover mx-auto text-center">
+            <caption class="text-center" style="caption-side: top;">Darova!</caption>
+            <thead class="thead-dark">
+            <tr>
+                <th class="w-25">#</th>
+                <th class="w-75">nickname</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>ты зидр</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>MorKich</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sinichka</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>каркуша</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>DeCode</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><a href="https://vk.com/lovgon" target="_blank">lovgon</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+
+<div style="height: 50px"></div>
+
+<footer class="card-footer fixed-bottom">
+    <p class="text-center m-auto">
+        Сегодня,
+        <script type="text/javascript">
+            const d = new Date();
+            const day = ["воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"];
+            const month = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"];
+            document.write(day[d.getDay()] + " " + d.getDate() + " " + month[d.getMonth()] + " " + d.getFullYear() + " года");
+        </script>
+    </p>
+</footer>
+
+</body>
+
 </html>
